@@ -2,7 +2,7 @@ import Tram from 'tram-one'
 const html = Tram.html()
 
 export default (attrs) => {
-  const style= `
+  const style = `
     color: ${attrs.color}; background: black;
     cursor: pointer; text-align: center;
     padding: 1em; user-select: none;
