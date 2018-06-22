@@ -1,0 +1,20 @@
+{
+  "name": "tram-one-stackblitz",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack-serve",
+    "build": "webpack",
+    "postbuild": "cp ./index.html ./favicon.png ./favicon64.png style.css ./dist/"
+  },
+  "keywords": [
+    "tram-one"
+  ],
+  "dependencies": {
+    "jasmine": "^2.8.0",
+    "tram-one": "^7.0.0",
+    "tram-dev-server-config": "^1.0.1",
+    "webpack": "^4.8.3",
+    "webpack-command": "^0.2.0",
+    "webpack-serve": "^1.0.2"
+  }
+}
