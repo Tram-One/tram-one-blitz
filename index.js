@@ -2,7 +2,7 @@ import Tram from 'tram-one'
 import home from './pages/home'
 import notFound from './pages/404'
 import colorActions from './actions/color'
-const app = new Tram({defaultRoute: '/'})
+const app = new Tram()
 
 app.addRoute('/', home)
 app.addRoute('/404', notFound)
