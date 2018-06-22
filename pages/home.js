@@ -6,16 +6,20 @@ const html = Tram.html({
 })
 
 export default (store, actions) => {
+
   const advanceColor = () => {
     actions.advance()
   }
+
   return html`
     <div>
       <app-header color=${store.color} onclick=${advanceColor} />
       <div>
         Thank you for using Tram-One!<br />
-        To get started, edit <code>tram-one-stackblitz/pages/home.js</code>.
+        To get started, edit
+        <code>pages/home.js</code>.
       </div>
     </div>
   `
+
 }
