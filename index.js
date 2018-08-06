@@ -1,4 +1,5 @@
 import Tram from 'tram-one'
+import './style.css';
 import home from './pages/home'
 import notFound from './pages/404'
 import colorActions from './actions/color'
